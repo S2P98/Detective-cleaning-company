@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h2,
+    #newsletter form,
+    #boxes .box,
+    #main-col,
+    #sidebar,
+    .team-member {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+        font-size: 2em;
+    }
+
+    #newsletter button {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .tech-logos img {
+        margin: 10px;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #showcase h1 {
+        font-size: 1.5em;
+    }
+
+    #showcase p {
+        font-size: 1em;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .testimonial p {
+        font-size: 1em;
+    }
+}
